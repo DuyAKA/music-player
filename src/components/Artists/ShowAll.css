@@ -1,0 +1,49 @@
+.show-all-artists {
+    display: block;
+    flex: 1;
+    overflow-y: auto;
+    height: 100vh; 
+}
+
+.all-artists-title-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.all-artists-title {
+    display: flex;
+    color: transparent;
+    background: linear-gradient(to right, rgb(133, 241, 241), rgb(251, 172, 185));
+    background-clip: text;
+    font-family: "Rowdies", sans-serif;
+    height: 10vh;
+}
+
+.all-artists-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    gap: 80px;
+    justify-items: center;
+    column-gap: 0
+}
+
+.artist-card {
+    width: 100px;
+    height: 100px;
+    text-align: center; 
+}
+
+.artist-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+
+}
+
+.artist-name {
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight: 400;
+}

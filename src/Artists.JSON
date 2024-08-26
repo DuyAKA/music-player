@@ -1,0 +1,130 @@
+{
+    "artists": [
+      {
+        "id": "1",
+        "avatar": "https://i1.sndcdn.com/artworks-WLHeG1yNMqMzQ1sb-EL9AEA-t500x500.jpg" ,
+        "name": "MCK",
+        "genre": "Hip Hop",
+        "country": "Vietnam"
+      },
+      {
+        "id": "2",
+        "avatar":"https://yt3.googleusercontent.com/_FNQEYvrFt-gfTQZp5lH1MbS0-5yGpway2S1xLjE7Kw6oAaCPmotdWcbc5OaQv67hC_a1S2J=s900-c-k-c0x00ffffff-no-rj" ,
+        "name": "HieuThuHai",
+        "genre": "Hip Hop",
+        "country": "Vietnam"
+      },
+      {
+        "id": "3",
+        "avatar": "https://images.genius.com/0f0ca9dba5da2c3f41e0bc52c0dba0a9.1000x1000x1.jpg",
+        "name": "Tlinh",
+        "genre": "Hip Hop",
+        "country": "Vietnam"
+      },
+      {
+        "id": "4",
+        "avatar": "https://event.mediacdn.vn/thumb_w/1200/eventcore/cms/userimages/55/202401030007522616.jpg" ,
+        "name": "Wren Evans",
+        "genre": "Pop",
+        "country": "Vietnam"
+      },
+      {
+        "id": "5",
+        "avatar": "https://vnn-imgs-f.vgcloud.vn/2021/11/07/09/soobin-hoang-son-co-luc-ap-luc-tinh-than-toi-hoan-toan-suy-sup.jpg",
+        "name": "Soobin",
+        "genre": "R&B",
+        "country": "Vietnam"
+      },
+      {
+        "id": "6",
+        "avatar": "https://cdn.tuoitre.vn/thumb_w/480/471584752817336320/2023/12/28/base64-17037500166461921306172.jpeg",
+        "name": "Bray",
+        "genre": "Hip Hop",
+        "country": "Vietnam"
+      },
+      {
+        "id": "7",
+        "avatar": "https://vcdn1-giaitri.vnecdn.net/2023/12/18/b45831cfa2ca417fa2ad1f9c8ecbf2-3148-1173-1702913059.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Gdv728JcpLn59asjk6JfGw",
+        "name": "Anh Tú",
+        "genre": "Ballad",
+        "country": "Vietnam"
+      },
+      {
+        "id": "8",
+        "avatar": "https://avatar-ex-swe.nixcdn.com/singer/avatar/2023/06/01/d/d/9/7/1685605473158_600.jpg",
+        "name": "Trúc Nhân",
+        "genre": "Pop",
+        "country": "Vietnam"
+      },
+      {
+        "id": "9",
+        "avatar": "https://losslesspro.com/img/artists/63a1b618e4da3.jpg",
+        "name": "David Guetta",
+        "genre": "EDM",
+        "country": "US-UK"
+      },
+      {
+        "id": "10",
+        "avatar": "https://pbs.twimg.com/profile_images/1694347378168635393/ZlQcpGvU_400x400.jpg",
+        "name": "Selena Gomez",
+        "genre": "Pop",
+        "country": "US-UK"
+      },
+      {
+        "id": "11",
+        "avatar": "https://pbs.twimg.com/profile_images/1736826192760610816/C4uUnb-3_400x400.jpg",
+        "name": "Dua Lipa",
+        "genre": "Pop",
+        "country": "US-UK"
+      },
+      {
+        "id": "12",
+        "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKnOdB7TZcCNlQI6dGgt1TTRqpbP3ZJpMGUA&s",
+        "name": "ZAYN",
+        "genre": "R&B",
+        "country": "US-UK"
+      },
+      {
+        "id": "13",
+        "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPcPG-AcBI72PNAMs2lM0v-mUz1UCgJIYkyA&s",
+        "name": "Billie Eilish",
+        "genre": "Pop",
+        "country": "US-UK"
+      },
+      {
+        "id": "14",
+        "avatar": "https://www.elle.vn/wp-content/uploads/2014/07/08/Justin-Bieber-0.jpg",
+        "name": "Justin Bieber",
+        "genre": "Pop",
+        "country": "US-UK"
+      },
+      {
+        "id": "15",
+        "avatar": "https://images.thedirect.com/media/photos/bldt.jpg",
+        "name": "Travis Scott",
+        "genre": "Hip Hop",
+        "country": "US-UK"
+      },
+      {
+        "id": "16",
+        "avatar": "https://i.iheart.com/v3/catalog/artist/396790?ops=fit(720%2C720)",
+        "name": "Ed Sheeran",
+        "genre": "Pop",
+        "country": "US-UK"
+      },
+      {
+        "id": "17",
+        "avatar": "https://i.pinimg.com/474x/eb/18/19/eb18199e416fc0779197db0a3f92f155.jpg",
+        "name": "The Weeknd",
+        "genre": "Pop",
+        "country": "US-UK"
+      },
+      {
+        "id": "18",
+        "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScQIRZYw16NDaPEMZnQ2mz0tPZHzoaXTXVcA&s",
+        "name": "Ariana Grande",
+        "genre": "Pop",
+        "country": "US-UK"
+      }
+    ]
+  }

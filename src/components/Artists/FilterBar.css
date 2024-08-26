@@ -1,0 +1,116 @@
+
+.sidebar-images{
+    width: 40px;
+    height: 40px;
+    transition: width 0.3s ease, height 0.3 ease;
+    object-fit: cover;
+}
+
+#sidebar.expand .sidebar-images{
+    width: 40px;
+    height: 40px;
+}
+
+::after,
+::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+#sidebar {
+    width: 120px;
+    min-width: 120px;
+    transition: all .25s ease-in-out;
+    background: linear-gradient(to bottom, rgb(52, 37, 38), rgb(31, 29, 29));
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#sidebar.expand {
+    width: 240px;
+    min-width: 240px;
+}
+
+.toggle-btn {
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+    padding: 1rem 2rem;
+}
+
+.toggle-btn i {
+    font-size: 2rem;
+    color: #FFF;
+}
+
+.sidebar-playmus{
+    margin: auto 0;
+}
+
+.sidebar-playmus a{
+    font-size:x-large;
+    color: #fc9bbd;
+}
+
+#sidebar:not(.expand) .sidebar-playmus,
+#sidebar:not(.expand) a.sidebar-link span{
+    display: none;
+} 
+
+.sidebar-nav{
+    padding: 1rem;
+    flex: 1 1 auto;
+    margin-top: -25px;
+}
+
+a.sidebar-link{
+    padding: .625rem .625rem;
+    color: #f6f99e;
+    display: block;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    border-left: 3px solid transparent;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+}
+
+.sidebar-link span {
+    margin-left: 20px;
+    font-size: large;
+    font-family: "Josefin Sans", sans-serif;
+    color: whitesmoke;
+}
+
+a.sidebar-link:hover{
+    background-color: rgba(255, 255, 255, .075);
+    border-left: 3px solid #65b5cb; 
+}
+
+.sidebar-item{
+    position: relative;
+}
+
+.sidebar-dropdown{
+    
+}
+
+
+
+
+
+
+
+
+
+

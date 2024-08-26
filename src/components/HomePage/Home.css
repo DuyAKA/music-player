@@ -1,0 +1,134 @@
+.home{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.home-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.home-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    position: absolute;
+    filter: brightness(0.7);
+  }
+
+  .music-player-name{
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 90px;
+    position: absolute;
+    text-align: center;
+    right: 140px;
+    top: 300px;
+    background: linear-gradient(to right, rgb(179, 45, 45), whitesmoke);
+    background-clip: text;
+    color: transparent;
+  }
+
+  .music-player-title{
+    text-align: center;
+    position: absolute;
+    right: 95px;
+    top: 450px;
+    font-size: 31px;
+    font-family: "Playwrite HU", cursive;
+    font-weight:300;
+    color: rgb(243, 223, 223);
+  }
+
+  .navbar-zone{
+    width: 86%;
+  }
+  
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 65px; 
+  }
+
+  .nav-seperator-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-seperator-line::after {
+    content: '';
+    width: 0.7px;                                                                                                    
+    height: 25px;
+    background-color: rgb(245, 198, 198);
+  }
+  
+  .nav-link {
+    color: white !important;
+    font-family: "Righteous", sans-serif ;
+    font-weight: 300;
+    font-size: 17px !important;
+  }
+  
+  .nav-link:hover {
+    color: rgb(247, 106, 106) !important;
+  }
+
+  .avatar-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+    margin-left: 1350px;
+    margin-top: -80px;
+    height: 100px;
+  }
+  
+  .avatar-image {
+    position: absolute;
+    display: flex;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+  }
+
+  .dropdown-container {
+    display: none;
+    position: absolute;
+  }
+
+  .avatar-container:hover .dropdown-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 85px;
+  }
+  
+  .dropdown-item {
+    display: flex !important;
+    color: rgb(246, 253, 255) !important;
+    margin-bottom: 20px;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 10px !important;
+    font-family: "Asap", sans-serif;
+    font-weight: 500 !important;
+    width: 160% !important;
+    height: 35px !important;
+  }
+  
+  .dropdown-item:hover {
+    background: rgb(253, 96, 112) !important;
+  }
+  
+
+  
+  
+
+

@@ -1,0 +1,81 @@
+.artists-zone{
+    display: block;
+    flex: 1;
+}
+
+.artists-title-container{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    height: 7vh;
+}
+
+.artists-title{
+    display: flex;
+    color: transparent;
+    background: linear-gradient(to right, rgb(133, 241, 241), rgb(254, 177, 190));
+    background-clip: text;
+    font-family: "Rowdies", sans-serif;
+}
+
+.artists-home-part-title{
+    color: whitesmoke;
+    font-family: "Oldenburg", serif;
+    margin-left: 100px;
+    margin-top: 25px;
+    background: linear-gradient(to right, rgb(250, 181, 234), rgb(249, 150, 166));
+    background-clip: text;
+    color: transparent;
+    font-weight: 600;
+}
+
+#artistsCarousel{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#artistsCarousel1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.artists-card {
+    text-align: center;
+    margin: auto;
+}
+
+.artists-name {
+    color: white;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.artists-images {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.carousel-inner {
+    display: flex;
+    width: 80%; 
+    margin: 0 auto;
+}
+
+.artists-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-artists{
+    margin-top: 80px;
+}
+
