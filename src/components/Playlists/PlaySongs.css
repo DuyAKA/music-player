@@ -1,0 +1,138 @@
+.playsongs-container{
+    display: flex;
+    align-items: center;
+    margin-left: 8%;
+}
+
+.playsongs{
+    display: flex;
+    backdrop-filter: blur(100px);
+    border-style:ridge;
+    border-color: rgb(246, 179, 170);
+}
+
+.playsongs-inside{
+    display: block;
+    padding: 15px;
+}
+
+.song-image{
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+}
+
+.song-name-container{
+    margin-top: 20px;
+    width: 100px;
+}
+
+.song-name{
+    color: rgb(255, 253, 254);
+    font-weight: 600;
+}
+
+.song-artist-container{
+    width: 100px;
+}
+
+.song-artist{
+    color: white;
+}
+
+
+.playsongs-bar-container{
+    margin-top: 35px;
+    margin-left: 13px;
+    display: flex;
+    gap: 50px;
+}
+
+.icon-container{
+    display: inline-flex;
+    width: 25px;
+    justify-content: center;
+    position: relative;
+}
+
+.repeat-icon {
+    color: white; 
+    font-size: 20px;
+  }
+
+.previous-icon{
+    color: white; 
+    font-size: 20px;
+}
+
+.playpause-icon{
+    color: white; 
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.next-icon{
+    color: white; 
+    font-size: 20px;
+}
+
+.volume-container{
+    position: relative; /* Establishes positioning context */
+    display: inline-flex; /* Allows the slider to overlay the icon */
+    justify-content: center;
+}
+
+.volume-icon{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.volume-slider{
+    cursor: pointer;
+    position: absolute;
+    transform: translateY(-100%);
+    width: 75px;
+    rotate: 270deg;
+    bottom: 270%;
+    margin-left: 28px;
+}
+
+.song-time-container{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.song-time{
+    color: white;
+}
+
+.time-slider {
+    margin-top: 11px;
+    -webkit-appearance: none; 
+    width: 100%;
+    height: 3px; 
+    background: rgb(239, 125, 125); 
+    border-radius: 5px; 
+    outline: none; 
+}
+
+.time-slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove default thumb styling */
+    width: 10px; 
+    height: 10px; 
+    background: pink;
+    cursor: pointer;
+    border-radius: 50%; 
+}
+
+
+
+@media (max-width: 768px) {
+    .playsongs {
+        margin-left: 20%;
+    }
+}
+

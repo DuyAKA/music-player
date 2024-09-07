@@ -5,7 +5,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HotSongs from './components/HotSongs/HotSongs';
 import Playlists from './components/Playlists/Playlists';
 import Artists from './components/Artists/Artists';
-import ShowAll from './components/Artists/ShowAll';
+import Genres from './components/Artists/Genres';
+import Country from './components/Artists/Country';
+
+
 
 function App() {
   return (
@@ -16,9 +19,8 @@ function App() {
           <Route path='/hotsongs' element={<HotSongs/>}/>
           <Route path='/playlists' element={<Playlists/>} />
           <Route path='/artists' element={<Artists/>} />
-          <Route path='/artists/allartists' element={<ShowAll/>}/>
-          <Route path='/artists/allartists/:genre' element={<ShowAll/>}/>
-          <Route path='/artists/allartists/:market' element={<ShowAll/>} />
+          <Route path='/artists/allartists/:genre' element={<Genres/>}/>
+          <Route path='/artists/allartists/:country' element={<Country/>}/>
         </Routes>
       </div>
     </Router>

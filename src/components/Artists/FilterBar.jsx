@@ -69,9 +69,6 @@ const FilterBar = () => {
               </a>
             {expandedSections.genre && (
               <ul id='genre' className='sidebar-dropdown list-unstyled' data-bs-parent='#sidebar'>
-              <li className='sidebar-item'>
-                  <a href='/artists/allartists' className='sidebar-link'>All Artists</a>
-                </li>
 
                 <li className='sidebar-item'>
                   <a href='/artists/allartists/r&b' className='sidebar-link'>R&B</a>
