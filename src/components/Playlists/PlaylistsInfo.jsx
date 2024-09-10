@@ -9,6 +9,8 @@ const PlaylistsInfo = () => {
   const [playlists, setPlaylists] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [searchPlaylist, setSearchPlaylist] = useState('');
+  const [selectedPlaylist, setSelectedPlaylist] = useState(null);
+  const [tracks, setTracks] = useState([]);
   const playlistsPerPage = 6;
   const navigate = useNavigate();
 
@@ -90,6 +92,31 @@ const PlaylistsInfo = () => {
     }
   };
 
+  const fetchTracks = async (playlistId, playlistName) => {
+    const token = await getAcessToken();
+
+    if(!token) {
+      console.error('Failed to get access token');
+      return;
+    }
+
+    try {
+      const headers = {
+        'Authorization': `Bearer ${token}`,
+      }
+
+      const response = await axios.get(`https://api.spotify.com/v1/playlists/${playlistId}/tracks`, {
+        headers,
+      });
+
+      setTracks(response.data.items);
+      setSelectedPlaylist(playlistName);
+      navigate(`/playlists/${encodeURIComponent(playlistName)}`);
+    } catch(error) {
+      console.error('Error fetching tracks from Spotify API', error);
+    }
+  };
+
   useEffect(() => {
     fetchPlaylists();
   }, []);
@@ -98,7 +125,7 @@ const PlaylistsInfo = () => {
   const indexOfLastPlaylist = currentPage * playlistsPerPage;
   const indexOfFirstPlaylist = indexOfLastPlaylist - playlistsPerPage;
   
-  // Filter playlists based on the search query
+  // Filter playlists based on the search 
   const filteredPlaylists = playlists.filter((playlist) =>
     playlist.name.toLowerCase().includes(searchPlaylist.toLowerCase())
   );
@@ -143,11 +170,13 @@ const PlaylistsInfo = () => {
 
           <button onClick={handleHomeClick} className='lni lni-home home-button'></button>
         </div>
+
+        
         
         <div className='playlists-info-container'>
           <div className='playlists'>
             {currentPlaylists.map((playlist) => (
-              <div key={playlist.id} className='playlist-card'>
+              <div key={playlist.id} className='playlist-card' onClick={() => setSelectedPlaylist(playlist)}>
                 <img className='playlist-image' src={playlist.images[0]?.url} alt={playlist.name} />
                 <p className='playlist-name'>{playlist.name}</p>
               </div>
